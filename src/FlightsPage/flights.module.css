@@ -11,7 +11,7 @@
 
   .head {
     display: flex;
-    align-items: start;
+    align-items:flex-start;
     margin: 0px auto 64px;
     width: 100%;
     padding: 0px 16px;
@@ -86,7 +86,7 @@
   .flightformfilter {
     display: flex;
     flex-direction: row;
-    justify-content: start;
+    justify-content:flex-start;
     align-items: center;
     margin-bottom: 16px !important;
     width: 100%;
@@ -319,7 +319,7 @@
 
 
   /* Popular Flight code CSS ------------------ */
-  
+
   .popularFlight{
       margin-left: 8%;
       margin-top: 50px;
@@ -464,7 +464,7 @@
 .bagBox{
     margin-left: 50px;
     width: 300px;
-    text-align: end;
+    text-align: right;
     border-left: 1px solid gray;
 }
 
