@@ -8,10 +8,10 @@ import WrapTextIcon from '@mui/icons-material/WrapText';
 import AirplaneTicketIcon from '@mui/icons-material/AirplaneTicket';
 
 export default function Flights() {
-   
-  const [popularFlight,setPopularFlight]=useState([]); 
+
+  const [popularFlight,setPopularFlight]=useState([]);
   const [trendingCity,setTrendingCity]=useState([]);
-  const [date,setDate]=useState(new Date().getDate());
+  const [date,_]=useState(new Date().getDate());
   const nextDate= 7+date
 
   const [worldWideFlight,setWorldWideFlight]=useState([])

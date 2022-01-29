@@ -3,7 +3,6 @@ import Box from '@mui/material/Box';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 import Modal from '@mui/material/Modal';
-import { Link } from 'react-router-dom';
 import style from "./flights.module.css";
 import ConnectingAirportsIcon from '@mui/icons-material/ConnectingAirports';
 import PaymentCard from "../CarRentalsPage/PaymentCard";
@@ -79,7 +78,7 @@ export default function SeeFlight({id,origin,destination,arrival,departure,date,
                                 <h3>INR{price}</h3>
                                 <p>Total price for all travelers</p>
                             </div>
-                            <div>    
+                            <div>
                                 <button className={style.seeflight} style={{background: "blue",color: "white"}} onClick={handleShow}>
                                   Pay Now
                                 </button>
